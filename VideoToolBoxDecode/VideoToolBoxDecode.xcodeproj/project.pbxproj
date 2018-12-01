@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93E990DB21B221430016DAA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E990DA21B221430016DAA2 /* AppDelegate.m */; };
+		93E990DE21B221430016DAA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E990DD21B221430016DAA2 /* ViewController.m */; };
+		93E990E121B221430016DAA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E990DF21B221430016DAA2 /* Main.storyboard */; };
+		93E990E321B221450016DAA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E990E221B221450016DAA2 /* Assets.xcassets */; };
+		93E990E621B221450016DAA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E990E421B221450016DAA2 /* LaunchScreen.storyboard */; };
+		93E990E921B221450016DAA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E990E821B221450016DAA2 /* main.m */; };
+		93E990F321B221450016DAA2 /* VideoToolBoxDecodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E990F221B221450016DAA2 /* VideoToolBoxDecodeTests.m */; };
+		93E990FE21B221450016DAA2 /* VideoToolBoxDecodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E990FD21B221450016DAA2 /* VideoToolBoxDecodeUITests.m */; };
+		93E9910D21B223360016DAA2 /* H264EncodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E9910C21B223360016DAA2 /* H264EncodeTool.m */; };
+		93E9911021B223A10016DAA2 /* H264DecodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E9910F21B223A10016DAA2 /* H264DecodeTool.m */; };
+		93E9911321B223F30016DAA2 /* AAPLEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E9911221B223F30016DAA2 /* AAPLEAGLLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93E990EF21B221450016DAA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E990CE21B221430016DAA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93E990D521B221430016DAA2;
+			remoteInfo = VideoToolBoxDecode;
+		};
+		93E990FA21B221450016DAA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E990CE21B221430016DAA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93E990D521B221430016DAA2;
+			remoteInfo = VideoToolBoxDecode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93E990D621B221430016DAA2 /* VideoToolBoxDecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoToolBoxDecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E990D921B221430016DAA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93E990DA21B221430016DAA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93E990DC21B221430016DAA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93E990DD21B221430016DAA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93E990E021B221430016DAA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93E990E221B221450016DAA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93E990E521B221450016DAA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93E990E721B221450016DAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E990E821B221450016DAA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93E990EE21B221450016DAA2 /* VideoToolBoxDecodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoToolBoxDecodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E990F221B221450016DAA2 /* VideoToolBoxDecodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoToolBoxDecodeTests.m; sourceTree = "<group>"; };
+		93E990F421B221450016DAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E990F921B221450016DAA2 /* VideoToolBoxDecodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoToolBoxDecodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E990FD21B221450016DAA2 /* VideoToolBoxDecodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoToolBoxDecodeUITests.m; sourceTree = "<group>"; };
+		93E990FF21B221450016DAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E9910B21B223360016DAA2 /* H264EncodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H264EncodeTool.h; sourceTree = "<group>"; };
+		93E9910C21B223360016DAA2 /* H264EncodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H264EncodeTool.m; sourceTree = "<group>"; };
+		93E9910E21B223A10016DAA2 /* H264DecodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H264DecodeTool.h; sourceTree = "<group>"; };
+		93E9910F21B223A10016DAA2 /* H264DecodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H264DecodeTool.m; sourceTree = "<group>"; };
+		93E9911121B223F30016DAA2 /* AAPLEAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLEAGLLayer.h; sourceTree = "<group>"; };
+		93E9911221B223F30016DAA2 /* AAPLEAGLLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLEAGLLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93E990D321B221430016DAA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E990EB21B221450016DAA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E990F621B221450016DAA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93E990CD21B221430016DAA2 = {
+			isa = PBXGroup;
+			children = (
+				93E990D821B221430016DAA2 /* VideoToolBoxDecode */,
+				93E990F121B221450016DAA2 /* VideoToolBoxDecodeTests */,
+				93E990FC21B221450016DAA2 /* VideoToolBoxDecodeUITests */,
+				93E990D721B221430016DAA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93E990D721B221430016DAA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93E990D621B221430016DAA2 /* VideoToolBoxDecode.app */,
+				93E990EE21B221450016DAA2 /* VideoToolBoxDecodeTests.xctest */,
+				93E990F921B221450016DAA2 /* VideoToolBoxDecodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93E990D821B221430016DAA2 /* VideoToolBoxDecode */ = {
+			isa = PBXGroup;
+			children = (
+				93E990D921B221430016DAA2 /* AppDelegate.h */,
+				93E990DA21B221430016DAA2 /* AppDelegate.m */,
+				93E990DC21B221430016DAA2 /* ViewController.h */,
+				93E990DD21B221430016DAA2 /* ViewController.m */,
+				93E990DF21B221430016DAA2 /* Main.storyboard */,
+				93E990E221B221450016DAA2 /* Assets.xcassets */,
+				93E990E421B221450016DAA2 /* LaunchScreen.storyboard */,
+				93E990E721B221450016DAA2 /* Info.plist */,
+				93E990E821B221450016DAA2 /* main.m */,
+				93E9910B21B223360016DAA2 /* H264EncodeTool.h */,
+				93E9910C21B223360016DAA2 /* H264EncodeTool.m */,
+				93E9910E21B223A10016DAA2 /* H264DecodeTool.h */,
+				93E9910F21B223A10016DAA2 /* H264DecodeTool.m */,
+				93E9911121B223F30016DAA2 /* AAPLEAGLLayer.h */,
+				93E9911221B223F30016DAA2 /* AAPLEAGLLayer.m */,
+			);
+			path = VideoToolBoxDecode;
+			sourceTree = "<group>";
+		};
+		93E990F121B221450016DAA2 /* VideoToolBoxDecodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				93E990F221B221450016DAA2 /* VideoToolBoxDecodeTests.m */,
+				93E990F421B221450016DAA2 /* Info.plist */,
+			);
+			path = VideoToolBoxDecodeTests;
+			sourceTree = "<group>";
+		};
+		93E990FC21B221450016DAA2 /* VideoToolBoxDecodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93E990FD21B221450016DAA2 /* VideoToolBoxDecodeUITests.m */,
+				93E990FF21B221450016DAA2 /* Info.plist */,
+			);
+			path = VideoToolBoxDecodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93E990D521B221430016DAA2 /* VideoToolBoxDecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E9910221B221450016DAA2 /* Build configuration list for PBXNativeTarget "VideoToolBoxDecode" */;
+			buildPhases = (
+				93E990D221B221430016DAA2 /* Sources */,
+				93E990D321B221430016DAA2 /* Frameworks */,
+				93E990D421B221430016DAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoToolBoxDecode;
+			productName = VideoToolBoxDecode;
+			productReference = 93E990D621B221430016DAA2 /* VideoToolBoxDecode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93E990ED21B221450016DAA2 /* VideoToolBoxDecodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E9910521B221450016DAA2 /* Build configuration list for PBXNativeTarget "VideoToolBoxDecodeTests" */;
+			buildPhases = (
+				93E990EA21B221450016DAA2 /* Sources */,
+				93E990EB21B221450016DAA2 /* Frameworks */,
+				93E990EC21B221450016DAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E990F021B221450016DAA2 /* PBXTargetDependency */,
+			);
+			name = VideoToolBoxDecodeTests;
+			productName = VideoToolBoxDecodeTests;
+			productReference = 93E990EE21B221450016DAA2 /* VideoToolBoxDecodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93E990F821B221450016DAA2 /* VideoToolBoxDecodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E9910821B221450016DAA2 /* Build configuration list for PBXNativeTarget "VideoToolBoxDecodeUITests" */;
+			buildPhases = (
+				93E990F521B221450016DAA2 /* Sources */,
+				93E990F621B221450016DAA2 /* Frameworks */,
+				93E990F721B221450016DAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E990FB21B221450016DAA2 /* PBXTargetDependency */,
+			);
+			name = VideoToolBoxDecodeUITests;
+			productName = VideoToolBoxDecodeUITests;
+			productReference = 93E990F921B221450016DAA2 /* VideoToolBoxDecodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93E990CE21B221430016DAA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = aaron;
+				TargetAttributes = {
+					93E990D521B221430016DAA2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					93E990ED21B221450016DAA2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 93E990D521B221430016DAA2;
+					};
+					93E990F821B221450016DAA2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 93E990D521B221430016DAA2;
+					};
+				};
+			};
+			buildConfigurationList = 93E990D121B221430016DAA2 /* Build configuration list for PBXProject "VideoToolBoxDecode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93E990CD21B221430016DAA2;
+			productRefGroup = 93E990D721B221430016DAA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93E990D521B221430016DAA2 /* VideoToolBoxDecode */,
+				93E990ED21B221450016DAA2 /* VideoToolBoxDecodeTests */,
+				93E990F821B221450016DAA2 /* VideoToolBoxDecodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93E990D421B221430016DAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E990E621B221450016DAA2 /* LaunchScreen.storyboard in Resources */,
+				93E990E321B221450016DAA2 /* Assets.xcassets in Resources */,
+				93E990E121B221430016DAA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E990EC21B221450016DAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E990F721B221450016DAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93E990D221B221430016DAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E9911321B223F30016DAA2 /* AAPLEAGLLayer.m in Sources */,
+				93E990DE21B221430016DAA2 /* ViewController.m in Sources */,
+				93E9911021B223A10016DAA2 /* H264DecodeTool.m in Sources */,
+				93E990E921B221450016DAA2 /* main.m in Sources */,
+				93E990DB21B221430016DAA2 /* AppDelegate.m in Sources */,
+				93E9910D21B223360016DAA2 /* H264EncodeTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E990EA21B221450016DAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E990F321B221450016DAA2 /* VideoToolBoxDecodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E990F521B221450016DAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E990FE21B221450016DAA2 /* VideoToolBoxDecodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93E990F021B221450016DAA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93E990D521B221430016DAA2 /* VideoToolBoxDecode */;
+			targetProxy = 93E990EF21B221450016DAA2 /* PBXContainerItemProxy */;
+		};
+		93E990FB21B221450016DAA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93E990D521B221430016DAA2 /* VideoToolBoxDecode */;
+			targetProxy = 93E990FA21B221450016DAA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93E990DF21B221430016DAA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E990E021B221430016DAA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93E990E421B221450016DAA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E990E521B221450016DAA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93E9910021B221450016DAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93E9910121B221450016DAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93E9910321B221450016DAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBoxDecode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaronLin.VideoToolBoxDecode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93E9910421B221450016DAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBoxDecode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaronLin.VideoToolBoxDecode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93E9910621B221450016DAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBoxDecodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaronLin.VideoToolBoxDecodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoToolBoxDecode.app/VideoToolBoxDecode";
+			};
+			name = Debug;
+		};
+		93E9910721B221450016DAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBoxDecodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaronLin.VideoToolBoxDecodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoToolBoxDecode.app/VideoToolBoxDecode";
+			};
+			name = Release;
+		};
+		93E9910921B221450016DAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBoxDecodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaronLin.VideoToolBoxDecodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoToolBoxDecode;
+			};
+			name = Debug;
+		};
+		93E9910A21B221450016DAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBoxDecodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaronLin.VideoToolBoxDecodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoToolBoxDecode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93E990D121B221430016DAA2 /* Build configuration list for PBXProject "VideoToolBoxDecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E9910021B221450016DAA2 /* Debug */,
+				93E9910121B221450016DAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E9910221B221450016DAA2 /* Build configuration list for PBXNativeTarget "VideoToolBoxDecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E9910321B221450016DAA2 /* Debug */,
+				93E9910421B221450016DAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E9910521B221450016DAA2 /* Build configuration list for PBXNativeTarget "VideoToolBoxDecodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E9910621B221450016DAA2 /* Debug */,
+				93E9910721B221450016DAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E9910821B221450016DAA2 /* Build configuration list for PBXNativeTarget "VideoToolBoxDecodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E9910921B221450016DAA2 /* Debug */,
+				93E9910A21B221450016DAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93E990CE21B221430016DAA2 /* Project object */;
+}
